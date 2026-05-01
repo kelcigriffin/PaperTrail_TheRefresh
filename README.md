@@ -1,2 +1,7 @@
 # PaperTrail_TheRefresh
-Second iteration of my PaperTrail task tracking app
+Second iteration of my PaperTrail task tracking app<br>
+
+# The Plan
+Taking what I've learned from my first draft of PaperTrail and applying it here, to the refresh. I'm currently using PaperTrail on my desktop, and taking notes on improvements I want to make. I plan to compare the two projects at the end. The Refresh will use zero AI, only reference books and what's left of the internet. I'm viewing this as a case study to observe the difference between an app that's been influenced by AI, versus what comes together organically through books, real learniing, personal style, and a human touch. For version one, I plugged each feature idea into AI to help me write the code... what came out was not what I had envisioned, though the functionality was similar. UI/UX pros design intuitively, for people... I think AI codes inflexible copies of the same idea forever, and does not design with any intuitive flow. Without being spoon fed functions and wrestled with over styling, the app never would have worked. It would've been bloated with useless features, and all be stuffed onto one home page, wrapped in cards, with the most high-contrast colors known to man. My basic understanding of web design got me far enough to know how to recognize poor design and poor code choices. Though I hand-picked the color palette and icons, I feel that the app lacks personality and the layout is lacking. 
+
+Regardless, I'm not here to roast my brain child, just because I needed AI assistance with the code. I'm ready to learn and build the hard way now... I have a feeling it will be worth the effort, and probably significantly easier to expand, adjust, and maintain over time.
