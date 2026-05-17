@@ -2,32 +2,54 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaperTrail Project & Task Tracking</title>
+    <link href="css\styles.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Font Download -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body>
+    <!-- JAVASCRIPT FILE PATH -->
+     <script src="scripts/main.js"></script>
+     
+<div class="grid-container">
     <header>
-      <h1>PaperTrail</h1>
-      <img src="C:\Users\Kelci\Documents\Kelci's Apps\PaperTrail2\assets\iconPurple.ico" alt="PaperTrail logo" />
-      <p>Get shit done. Leave a trail ✌️</p>
+      <img src="assets\iconPurple.ico" alt="PaperTrail logo" class="logo"/>
+      <h1>PaperTrail
+      <p class="tagline">Get shit done. Leave a trail ✌️</p></h1>
     </header>
     <nav>
-      <ul>
+
         <li><a href="#">Projects</a></li>
         <li><a href="#">Views</a></li>
         <li><a href="#">Settings</a></li>
-      </ul>
-    </nav>
-    <main>
 
-    </main>
+    </nav>
+    <article>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora distinctio nostrum, quos optio quibusdam, 
+        obcaecati, temporibus eveniet similique sint autem labore error. Eaque laboriosam, aliquam autem provident consequatur 
+        animi enim dicta molestias temporibus ducimus amet magnam nesciunt. Perferendis deserunt accusantium consequatur ipsum, 
+        expedita nobis totam dolores cum. Reprehenderit, reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora distinctio nostrum, quos optio quibusdam, 
+        obcaecati, temporibus eveniet similique sint autem labore error. Eaque laboriosam, aliquam autem provident consequatur 
+        animi enim dicta molestias temporibus ducimus amet magnam nesciunt. Perferendis deserunt accusantium consequatur ipsum, 
+        expedita nobis totam dolores cum. Reprehenderit, reiciendis?</p>
+    </article>
+    <aside>
+      <ul>
+        <li>
+          <p><strong>Published on:</strong></p>
+          <p>May 13 2026</p>
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      Copyright 2026 PaperTrail
+    </footer>
+</div>
   </body>
 </html>

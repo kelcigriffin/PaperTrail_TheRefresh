@@ -20,7 +20,7 @@
   "license": "MIT",
   "author": "Kelci Griffin",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "scripts/main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"

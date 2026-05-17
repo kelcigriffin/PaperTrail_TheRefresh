@@ -24,3 +24,5 @@ app.on('window-all-closed', () => {
     app.quit()
   }
 })
+
+alert('HELLO WORLD');
